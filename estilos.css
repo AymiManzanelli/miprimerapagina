@@ -1,0 +1,57 @@
+body {
+    background-color: aquamarine;
+    color: blueviolet;
+}
+
+h1 {
+    font-family: 'Arial';
+    font-size: 36px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Georgia';
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px;
+}
+
+h2 {
+    font-family: 'rockwell';
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+    color: palevioletred;
+}
+
+h3 {
+font-family: 'rockwell';
+font-size: 25px;
+padding: 10px;
+margin: 10px;
+color: yellowgreen;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+@media (max-width:600px) {
+    
+.column {
+    flex: 100%;
+}
+}
